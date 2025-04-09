@@ -138,4 +138,4 @@ st.write(
     """We used a machine learning (Random Forest) model to predict your eligibility, the features used in this prediction are ranked by relative
     importance below."""
 )
-st.image("credit_eligibility_application-main/feature_importance.png")
+#st.image("credit_eligibility_application-main/feature_importance.png")
