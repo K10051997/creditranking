@@ -18,7 +18,7 @@ based on various personal and financial characteristics.
 #    st.stop()
 
 # Load the pre-trained model
-rf_pickle = open("random_forest_credit.pickle", "rb")
+rf_pickle = open("credit_eligibility_application-main/random_forest_credit.pickle", "rb")
 rf_model = pickle.load(rf_pickle)
 rf_pickle.close()
 
